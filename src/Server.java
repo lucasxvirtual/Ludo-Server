@@ -34,7 +34,6 @@ public class Server {
 		timer = new Timer(60000*3, new ActionListener(){
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				// TODO Auto-generated method stub
 				Server.exit();
 			}
 		});
